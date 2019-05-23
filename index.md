@@ -1,37 +1,37 @@
-## Welcome to GitHub Pages
+---
+title: 柚子
+subtitle: 工作学习总结
+layout: page
+---
 
-You can use the [editor on GitHub](https://github.com/wanyingDi/wanyingdi.github.io/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
+# 总结
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+This website showcases the options for the Bulma Clean theme. The theme is available as a ruby gem or can be used with GitHub pages. 
 
-### Markdown
+## Ruby Gem
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+The ruby gem is available on the Ruby Gems website at the following location. [https://rubygems.org/gems/bulma-clean-theme](https://rubygems.org/gems/bulma-clean-theme)
 
-```markdown
-Syntax highlighted code block
+## GitHub Pages
 
-# Header 1
-## Header 2
-### Header 3
+The theme can be used with GitHub Pages bu setting the `remote_theme` in your Jekyll sites `_config.yml`
 
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
+```yml
+remote_theme: chrisrhymes/bulma-clean-theme
 ```
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+## Instructions
 
-### Jekyll Themes
+For full instructions, please see the Readme at the GitHub repo:
+[https://github.com/chrisrhymes/bulma-clean-theme/blob/master/README.md](https://github.com/chrisrhymes/bulma-clean-theme/blob/master/README.md)
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/wanyingDi/wanyingdi.github.io/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+## Page Layouts
 
-### Support or Contact
+This demo site showcases the available page layout options.
 
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+* Page With Sidebar
+* Page Without Sidebar
+* Page With Menubar
+* Page With Tabs
+* Blog
+* Post
