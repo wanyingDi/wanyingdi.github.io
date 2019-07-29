@@ -1,4 +1,4 @@
 - label: Summary
   items:
-    - name: Docker
-      link: /blogs/docker/docker_base/ 
+    - name: Home
+      link: /
