@@ -1,4 +1,4 @@
 - label: Summary
   items:
     - name: Docker
-      link: /data/docker_base.md 
+      link: /blogs/docker/docker_base/ 
